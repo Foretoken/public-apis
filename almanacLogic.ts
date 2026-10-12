@@ -1,12 +1,12 @@
 // utils/almanacLogic.ts
 
-interface WeatherData {
+export interface WeatherData {
   temp: number; // Current temperature in F
   pressure: number; // Barometric pressure in hPa
   condition: string; // e.g., 'Clear', 'Rain', 'Snow'
 }
 
-interface AlmanacVerdict {
+export interface AlmanacVerdict {
   fishingScore: number; // 1 to 10
   fishingAdvice: string;
   plantingAdvice: string;
@@ -17,7 +17,7 @@ interface AlmanacVerdict {
 /**
  * Calculates the current Moon Phase based on the date.
  */
-function getMoonPhase(date: Date): string {
+export function getMoonPhase(date: Date): string {
   const lp = 2551443;
   const now = new Date(date.getFullYear(), date.getMonth(), date.getDate(), 20, 35, 0);
   const newMoon = new Date(1970, 0, 7, 20, 35, 0);

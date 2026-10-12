@@ -1,0 +1,8 @@
+{
+  "name": "Appalachian Smart Almanac & Public APIs Explorer",
+  "description": "Cultivation Culture LLC's hyper-local agricultural and fishing almanac for Tazewell County (Zone 7a/7b), paired with an interactive curated directory and testing toolkit for over 1,400 Public APIs.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
